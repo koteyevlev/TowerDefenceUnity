@@ -47,7 +47,7 @@ public class BulletBehavior : MonoBehaviour
                     AudioSource audioSource = target.GetComponent<AudioSource>();
                     AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
 
-                    gameManager.Gold += 50;
+                    gameManager.Gold += 30;
                 }
             }
             Destroy(gameObject);
